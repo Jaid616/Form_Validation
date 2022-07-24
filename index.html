@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="./style.css" class="css">
+</head>
+<body>
+      
+       <div class="container">
+             
+              <h2 class="formname">Form validation </h2>
+ 
+
+              <form onsubmit=" return fun1()" class="formclass" name="myform">
+                <div class="formfiled">
+                    <label for="name"class="lable">Name : </label>
+                <input type="text" id="name" name="name" placeholder="Enter Your Name" value="" class="inputfiled">
+                <span class="error"></span>
+                </div>
+
+                <div class="formfiled">
+                    <label for="email" class="lable">Email : </label>
+                <input type="text" id="email" name="email" placeholder="Enter Your Email" value="" class="inputfiled">
+                <span class="error"></span>
+                </div>
+
+                <div class="formfiled">
+                    <label for="pass" class="lable">PassWord : </label>
+                <input type="text" id="pass" name="pass" placeholder="Enter Your PassWord" value="" class="inputfiled" required>
+                <span class="error"></span>
+                </div>
+
+                <div class="formfiled">
+                    <label for="cpass"class="lable">PassWord : </label>
+                <input type="text" id="cpass" name="cpass" placeholder="Repeat Your PassWord" value="" class="inputfiled" >
+                <span class="error"></span>
+                </div>
+
+                <div class="formfiled">
+                    <label for="mobilenumber"class="lable">Mobile No. : </label>
+                <input type="text" id="mobilenumber" name="mobilenumber" placeholder="Enter Your Mobile" value="" class="inputfiled">
+                <span class="error"></span>
+                </div>
+
+               
+                <input type="submit" value="Submit" class="btnsubmit">
+                
+
+
+
+
+
+
+              </form>
+
+
+       </div>
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
